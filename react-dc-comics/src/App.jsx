@@ -3,6 +3,7 @@ import viteLogo from '/vite.svg'
 
 import AppHeader from './assets/components/AppHeader.jsx'
 import AppMain from './assets/components/AppMain.jsx'
+import AppFooter from './assets/components/AppFooter.jsx'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
     <AppHeader/>
     <AppMain/>
+    <AppFooter/>
 
     </>
   )

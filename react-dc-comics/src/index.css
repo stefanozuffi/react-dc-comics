@@ -45,3 +45,40 @@ main {
   color: white;
   padding: 3rem;
 }
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 0;
+  background-color: rgb(77, 76, 76);
+
+  button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(92, 140, 251);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: white;
+      color: black;
+      transition: 0.3s;
+    }
+  }
+
+  nav {
+    span {
+      position: relative;
+      top: -10px;
+      margin: 0 1rem;
+      font-weight: 800;
+      color: rgb(92, 140, 251);
+    }
+   
+    a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+  }
+}
