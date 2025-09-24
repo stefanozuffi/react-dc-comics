@@ -38,3 +38,10 @@ header {
     }
   }
 }
+
+/* Main */
+main {
+  background-color: black;
+  color: white;
+  padding: 3rem;
+}
