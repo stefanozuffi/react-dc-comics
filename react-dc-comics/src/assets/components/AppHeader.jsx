@@ -2,7 +2,7 @@ import DC_Logo from '../img/dc-logo.png'
 
 export default function AppHeader() {
     return (
-        <header>
+        <header className='container'>
         <img src={DC_Logo} alt="Small-Logo"/>
         <nav>
             <a href="#">CHARACTERS</a>

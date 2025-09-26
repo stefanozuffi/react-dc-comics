@@ -1,7 +1,7 @@
 export default function AppMain() {
     return (
         <main>
-            CONTENT GOES HERE
+            <div className="container">CONTENT GOES HERE</div>
         </main>
     )
 }

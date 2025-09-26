@@ -9,11 +9,17 @@ body {
   font-family: 'Open Sans Variable', sans-serif;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* Header */
 header {
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 3rem 0;
 
@@ -48,10 +54,29 @@ main {
 
 /* Footer */
 footer {
-  display: flex;
-  justify-content: space-around;
   padding: 1.5rem 0;
   background-color: rgb(77, 76, 76);
+
+  .LowerFooter {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .UpperFooter {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+
+    height: 300px;
+
+    background-image: url('../src/assets/img/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-size: 23rem;
+    background-position: right;
+  }
 
   button {
     background-color: transparent;

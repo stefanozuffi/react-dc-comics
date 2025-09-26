@@ -1,9 +1,11 @@
 export default function AppUpperFooter() {
     return(
-        <div>
-            <span>Upper Footer</span> 
-            {/* Attenzione: modificare approccio al footer: fare due components:
-             AppLowerFooter (con il footer corrente) + AppUpperFooter */}
+        <div className="UpperFooter container">
+            <span>Upper Footer</span>
+            <div className="gridList"></div>
+            <div className="bigLogo">
+                {/* Empty */}
+            </div>
         </div>
     )
 }
