@@ -9,6 +9,7 @@ body {
   font-family: 'Open Sans Variable', sans-serif;
 }
 
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -101,19 +102,70 @@ footer {
   }
 
   .UpperFooter {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
     color: white;
-    text-align: center;
-    padding: 1rem 0;
     margin-bottom: 1.5rem;
 
-    height: 300px;
-
-    background-image: url('../src/assets/img/dc-logo-bg.png');
+    background-image: url('../src/assets/img/footer-bg.png');
     background-repeat: no-repeat;
-    background-size: 23rem;
-    background-position: right;
+    background-size: cover;
+    background-position: center;
+
+    height: 18rem;
+
+
+    .row {
+      width: 11%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    h5 {
+      font-size: 1rem;
+      font-weight: 700;
+      text-align: left;
+    }
+
+    ul {
+      list-style: none;
+      text-align: left;
+      padding-left: 0;
+      
+    
+
+      li {
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        height: 1rem;
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 0.6rem;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .bigLogo {
+      width: 40%;
+      background-image: url('../src/assets/img/dc-logo-bg.png');
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      right: 100px;
+      z-index:2;
+    }
+
   }
 
   button {
@@ -131,9 +183,9 @@ footer {
   }
 
   nav {
+    
     span {
       position: relative;
-      top: -10px;
       margin: 0 1rem;
       font-weight: 800;
       color: rgb(92, 140, 251);
