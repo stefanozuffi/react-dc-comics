@@ -1,7 +1,11 @@
+import AppMainBlue from "./AppMainBlue"
+import AppMainContent from "./AppMainContent"
+
 export default function AppMain() {
     return (
         <main>
-            <div className="container">CONTENT GOES HERE</div>
+            <AppMainContent/>
+            <AppMainBlue/>
         </main>
     )
 }

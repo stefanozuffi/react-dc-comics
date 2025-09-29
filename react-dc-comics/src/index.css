@@ -47,9 +47,36 @@ header {
 
 /* Main */
 main {
-  background-color: black;
   color: white;
-  padding: 3rem;
+
+  .Content-C {
+    background-color: black;
+    padding: 3rem 0;
+  }
+
+  .Blue-C {
+    height: 200px;
+    background-color: rgb(0, 21, 41);
+    padding: 3rem 0;
+
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+
+      .element {
+        display: flex;
+        gap: 10px;
+        width: 5%;
+
+        .img {
+          margin-right: 1rem;
+        }
+      }
+      
+    }
+  }
 }
 
 /* Footer */

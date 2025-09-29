@@ -1,8 +1,7 @@
 export default function AppUpperFooter() {
     return(
         <div className="UpperFooter container">
-            <span>Upper Footer</span>
-            <div className="gridList"></div>
+            <div className="gridList">Griglia</div>
             <div className="bigLogo">
                 {/* Empty */}
             </div>
