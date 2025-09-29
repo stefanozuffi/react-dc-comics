@@ -6,6 +6,7 @@ export default function ProductCard(props) {
 
           <img src={props.image} alt=""/>
           <h4>{props.title}</h4>
+          <p>Art by: {props.artists}<br></br>Script by: {props.writers}</p>
 
        </div>
     )
